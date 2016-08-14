@@ -21,6 +21,13 @@ public class AppsListActivity extends AppCompatActivity implements View.OnClickL
         appMaterial = (Button) findViewById(R.id.btnMakeAppBigger);
         ubiquitous = (Button) findViewById(R.id.btnGoUbiquitous);
         capstone = (Button) findViewById(R.id.btnCapstone);
+
+        popularMovies.setOnClickListener(this);
+        stockHawk.setOnClickListener(this);
+        buildItBigger.setOnClickListener(this);
+        appMaterial.setOnClickListener(this);
+        ubiquitous.setOnClickListener(this);
+        capstone.setOnClickListener(this);
     }
 
     @Override

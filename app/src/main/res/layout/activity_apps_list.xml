@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
@@ -21,52 +24,45 @@
         android:id="@+id/tvNanogegree" />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/app1"
+        android:text="@string/popularMoviesText"
         android:id="@+id/btnPopularMovies"
         android:layout_below="@+id/tvNanogegree"
-        android:layout_centerHorizontal="true" />
+        style="@style/customButtonStyle" />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/app2"
+        android:text="@string/stockHawkText"
         android:id="@+id/btnStockhawk"
         android:layout_below="@+id/btnPopularMovies"
-        android:layout_centerHorizontal="true" />
+        style="@style/customButtonStyle" />
+
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/app3"
+        android:text="@string/buildItBiggerText"
         android:id="@+id/btnBuildItBigger"
         android:layout_below="@+id/btnStockhawk"
-        android:layout_centerHorizontal="true" />
+        style="@style/customButtonStyle"
+         />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/app4"
+        android:text="@string/yourAppMaterialText"
         android:id="@+id/btnMakeAppBigger"
         android:layout_below="@+id/btnBuildItBigger"
-        android:layout_centerHorizontal="true" />
+        style="@style/customButtonStyle" />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/app5"
+        android:text="@string/ubiquitousText"
         android:id="@+id/btnGoUbiquitous"
         android:layout_below="@+id/btnMakeAppBigger"
-        android:layout_centerHorizontal="true" />
+        style="@style/customButtonStyle"
+         />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="@string/app6"
+        android:text="@string/capstoneText"
         android:id="@+id/btnCapstone"
         android:layout_below="@+id/btnGoUbiquitous"
-        android:layout_centerHorizontal="true" />
-
+        style="@style/customButtonStyle"
+         />
 
 </RelativeLayout>
+
+</ScrollView>
